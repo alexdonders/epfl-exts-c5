@@ -1,0 +1,61 @@
+Column,uv_clf_alpha_01,uv_clf_alpha_005,uv_clf_alpha_001,Randomized Lasso,Linear SVC,Logistic Regregssion,Votes,Good Feature
+LinearRegression_long_wide_reg,True,True,True,False,True,False,4,True
+LinearRegression_short_wide_reg,False,False,False,False,False,True,1,False
+LinearRegression_long_comp_reg,True,True,True,False,False,False,3,False
+LinearRegression_short_comp_reg,True,True,True,False,False,False,3,False
+LinearRegression_long_selected_reg,True,True,True,False,False,False,3,False
+LinearRegression_short_selected_reg,True,True,True,False,False,False,3,False
+Lasso_long_wide_reg,True,True,True,True,False,False,4,True
+Lasso_short_wide_reg,True,True,True,True,False,False,4,True
+Lasso_long_comp_reg,True,True,True,False,False,False,3,False
+Lasso_short_comp_reg,True,True,True,False,False,False,3,False
+Lasso_long_selected_reg,True,True,True,False,False,False,3,False
+Lasso_short_selected_reg,True,True,True,False,False,False,3,False
+Ridge_long_wide_reg,True,True,True,False,False,False,3,False
+Ridge_short_wide_reg,True,True,True,False,False,True,4,True
+Ridge_long_comp_reg,True,True,True,False,False,False,3,False
+Ridge_short_comp_reg,True,True,True,False,True,False,4,True
+Ridge_long_selected_reg,True,True,True,False,False,False,3,False
+Ridge_short_selected_reg,True,True,True,False,True,False,4,True
+RandomForestRegression_long_comp_reg,True,True,True,True,False,False,4,True
+RandomForestRegression_short_comp_reg,True,True,True,True,True,False,5,True
+RandomForestRegression_long_selected_reg,True,True,True,True,False,False,4,True
+RandomForestRegression_short_selected_reg,True,True,True,False,True,False,4,True
+GradientBoostingRegression_long_comp_reg,True,True,False,True,False,False,3,False
+GradientBoostingRegression_short_comp_reg,True,True,True,False,False,False,3,False
+GradientBoostingRegression_long_selected_reg,True,True,False,False,False,False,2,False
+GradientBoostingRegression_short_selected_reg,True,True,True,True,False,False,4,True
+XGBRegression_long_comp_reg,False,False,False,False,False,False,0,False
+XGBRegression_short_comp_reg,True,True,True,True,True,True,6,True
+XGBRegression_long_selected_reg,True,True,True,True,False,False,4,True
+XGBRegression_short_selected_reg,True,True,True,True,True,True,6,True
+LinearSVR_long_comp_reg,True,True,True,True,False,False,4,True
+LinearSVR_short_comp_reg,True,True,False,True,False,False,3,False
+LinearSVR_long_selected_reg,False,False,False,True,False,False,1,False
+LinearSVR_short_selected_reg,True,True,False,True,True,False,4,True
+LogisticRegression_long_wide_clf,True,True,False,False,False,False,2,False
+LogisticRegression_long_wide_prob,True,True,True,True,True,True,6,True
+LogisticRegression_long_comp_clf,True,True,True,True,True,True,6,True
+LogisticRegression_long_comp_prob,True,True,True,True,False,False,4,True
+LogisticRegression_long_selected_clf,True,True,True,False,False,False,3,False
+LogisticRegression_long_selected_prob,True,True,True,True,True,True,6,True
+ExtraTreesClassifier_long_wide_clf,True,True,True,True,False,False,4,True
+ExtraTreesClassifier_long_wide_prob,True,True,True,True,True,True,6,True
+ExtraTreesClassifier_long_comp_clf,True,True,True,True,False,False,4,True
+ExtraTreesClassifier_long_comp_prob,True,True,True,True,True,False,5,True
+ExtraTreesClassifier_long_selected_clf,True,True,True,True,False,False,4,True
+ExtraTreesClassifier_long_selected_prob,True,True,True,True,True,True,6,True
+RandomForestClassifier_long_wide_clf,True,True,True,True,False,False,4,True
+RandomForestClassifier_long_wide_prob,True,True,True,False,False,False,3,False
+RandomForestClassifier_long_comp_clf,False,False,False,False,False,False,0,False
+RandomForestClassifier_long_comp_prob,True,True,True,True,False,False,4,True
+RandomForestClassifier_long_selected_clf,True,True,True,True,False,False,4,True
+RandomForestClassifier_long_selected_prob,True,True,True,False,False,False,3,False
+LinearSVC_long_wide_clf,False,False,False,False,False,False,0,False
+LinearSVC_long_comp_clf,False,False,False,False,False,False,0,False
+LinearSVC_long_selected_clf,False,False,False,False,False,False,0,False
+Regressor Mean,True,True,True,False,False,False,3,False
+Probability Mean,True,True,True,True,False,False,4,True
+Majority Vote,True,True,True,True,True,False,5,True
+Mean Probability Weighted Regression Mean,True,True,True,True,False,False,4,True
+Majority Vote Weighted Regression Mean,True,True,True,True,False,False,4,True
